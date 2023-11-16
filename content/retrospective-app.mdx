@@ -1,0 +1,36 @@
+---
+title: "Retrospective App"
+date: "2023-11-09"
+category: "Development"
+discipline: "Web App"
+cover: "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FRetro%20app.jpeg?alt=media&token=76554d86-b643-43e1-9918-c5b93c858b37"
+---
+
+Retrospectives are an essential part of the Agile development process. It allows teams to look back and reflect on their work, identify areas for improvement, make changes to improve their process and celebrate achievements at the same time.
+
+#### The challenge
+Now that most of us are working in hybrid/remote mode, conducting an effective Retrospective is a challenge. we need a platform where a team can just gather and fasicilitate an effective retro without thinking about finding a common place, gathering instruments etc. 
+The challenge for me was to come up with a solution which makes it easy for any team to fasicilitate a retro. 
+Apart from coming up with tyhe idea of an online retro board, there were couple of technical challenges I had to face while implementig it.
+- Domain modelling: Architecting the domain in a way which is easy to scale and have low latency.
+- Timer Component: A real-time timer component with the options to add time, start, stop and reset timer. Handle syncing of time for differnt clients effectively. 
+- Safety Check: A coponent to perform safety check for the members which updates in real time and showcase the overall safety rating of all the members in real time.
+- Authentication: Handle secured way of authenticating users.
+- Voting; Add options to vote for notes in the board and restricing the numbers of votes allowed per user.
+
+#### Technology used
+- Nextjs
+- Firebase for authentication and data storage
+- Framer motion for animations
+- Tailwind css for styling
+
+#### The solution
+Retro is a new web application that makes it easy for teams to conduct effective retrospectives. This application provides a variety of features to help teams get the most out of their retrospectives, including:
+- A variety of retrospective templates to help teams get started quickly
+- A safety check before processing with the retrospective
+- A timer to help teams stay on track
+- A voting system to help teams prioritize notes
+- An action tracking system to help teams keep track of their progress and setup action items 
+
+Getting started with this is very easy. Simply create an account and start creating retrospective boards for your team. Choose from already existing template and invite your team members to get started.
+

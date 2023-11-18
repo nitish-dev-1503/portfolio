@@ -39,23 +39,30 @@ export default function Projects() {
     }
 
     return (
-        <div className='w-full mb-32 p-6'>
-            <div className='w-full m-auto grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-24 gap-x-6'>
+        <div className='w-full py-16'>
+            <div className='w-full m-auto grid grid-col-1 md:grid-cols-2 gap-x-6 gap-y-12'>
                 {
                     allProjects && allProjects
                         .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
                         .map((project, index) => {
                             return (
-                                <Link key={index} href={project.url} className='flex flex-col group'>
+                                <Link key={index} href={project.url} className={` ${index === 0 ? ' ' : ''} flex flex-col group`}>
                                     <motion.div
                                         initial="hidden"
                                         animate="hidden"
                                         whileHover="visible"
-                                        className=' cursor-pointer bg-secondary w-full aspect-square relative object-fill overflow-hidden'>
+                                        className='  cursor-pointer bg-secondary w-full flex items-center relative object-fill overflow-hidden rounded-lg'>
                                         <Image src={project.cover} width='1000' height='1000' className='object-cover' alt='Work cover' />
+                                        <motion.div variants={overlayVariant} className=' hover:visible absolute top-0 bottom-0 left-0 right-0 backdrop-blur-sm'>
+                                        </motion.div>
                                     </motion.div>
-                                    <motion.p variants={titleVariant} className='mt-6 text-sm'>{project.discipline}</motion.p>
-                                    <motion.p variants={titleVariant} className=' text-lg font-semibold'>{project.title}</motion.p>
+
+                                    <div className='flex items-center justify-between mt-2'>
+                                        <p className='text-sm text-battleship_gray'>{project.category}</p>
+                                        <p className='text-sm text-battleship_gray'>{project.discipline}</p>
+                                    </div>
+                                    <hr className="h-px bg-battleship_gray border-0 my-2 " />
+                                    <p className='text-xl '>{project.title}</p>
                                 </Link>
                             );
                         })

@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` selection:bg-midnight_black dark:selection:bg-whisper_white bg-whisper_white dark:bg-midnight_black text-midnight_black dark:text-whisper_white min-h-screen ${beVietnamPro.className}`}>
+      <body className={` min-h-screen p-4 flex flex-col m-auto gap-6 selection:bg-jet dark:selection:bg-white_smoke bg-white_smoke dark:bg-jet text-jet dark:text-white_smoke max-w-3xl ${beVietnamPro.className}`}>
         <Providers >
           <Navbar />
           {children}

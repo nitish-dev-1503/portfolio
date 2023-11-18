@@ -1,14 +1,10 @@
-import Blogs from './components/blogs';
-import Projects from './components/projects';
-import Banner from './components/banner';
+import Tabs from "./components/Tabs";
 
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col items-center">
-      <Banner />
-      <Projects />
-      <Blogs />
+    <main className="flex grow flex-col items-center">
+      <Tabs />
     </main >
   )
 }

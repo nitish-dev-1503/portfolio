@@ -43,7 +43,7 @@ function Social() {
     </div>
 
     return (
-        <div className="flex flex-wrap gap-4 w-fit justify-center items-center">
+        <div className=" scale-90 mt-2 flex flex-wrap gap-4 w-fit justify-center items-center">
             {instagram}
             {behance}
             {gitHub}

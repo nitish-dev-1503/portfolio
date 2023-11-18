@@ -10,7 +10,7 @@ const components = {
     h1: ({ className, ...props }) => (
         <h1
             className={clsx(
-                "mt-2 scroll-m-20 text-4xl font-bold tracking-tight",
+                "mt-2 scroll-m-20 text-4xl tracking-tight",
                 className,
             )}
             {...props}
@@ -19,7 +19,7 @@ const components = {
     h2: ({ className, ...props }) => (
         <h2
             className={clsx(
-                "mt-10 scroll-m-20 border-b border-b-midnight_black dark:border-b-whisper_white pb-1 text-3xl font-semibold tracking-tight first:mt-0",
+                "mt-10 scroll-m-20 border-b border-b-onyx dark:border-b-platinum pb-1 text-3xl tracking-tight first:mt-0",
                 className,
             )}
             {...props}
@@ -28,7 +28,7 @@ const components = {
     h3: ({ className, ...props }) => (
         <h3
             className={clsx(
-                "mt-8 scroll-m-20 text-2xl font-semibold tracking-tight",
+                "mt-8 scroll-m-20 text-2xl tracking-tight",
                 className,
             )}
             {...props}
@@ -37,7 +37,7 @@ const components = {
     h4: ({ className, ...props }) => (
         <h4
             className={clsx(
-                "mt-8 scroll-m-20 text-xl font-semibold tracking-tight",
+                "mt-8 scroll-m-20 text-xl tracking-tight",
                 className,
             )}
             {...props}
@@ -46,7 +46,7 @@ const components = {
     h5: ({ className, ...props }) => (
         <h5
             className={clsx(
-                "mt-8 scroll-m-20 text-lg font-semibold tracking-tight",
+                "mt-8 scroll-m-20 text-lg tracking-tight",
                 className,
             )}
             {...props}
@@ -55,7 +55,7 @@ const components = {
     h6: ({ className, ...props }) => (
         <h6
             className={clsx(
-                "mt-8 scroll-m-20 text-base font-semibold tracking-tight",
+                "mt-8 scroll-m-20 text-base tracking-tight",
                 className,
             )}
             {...props}
@@ -64,7 +64,7 @@ const components = {
     a: ({ className, ...props }) => (
         <Link
             className={clsx(
-                "font-medium text-raisin_black dark:text-platinum underline underline-offset-4",
+                "font-medium text-onyx dark:text-platinum underline underline-offset-4",
                 className,
             )}
             {...props}
@@ -101,7 +101,7 @@ const components = {
     }) => (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-            className={clsx("rounded-lg border-2 border-platinum dark:border-raisin_black", className)}
+            className={clsx("rounded-lg border-2 border-platinum dark:border-onyx", className)}
             alt={alt}
             {...props}
         />
@@ -126,7 +126,7 @@ const components = {
     th: ({ className, ...props }) => (
         <th
             className={clsx(
-                "border border-zinc-200 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right",
+                "border border-zinc-200 px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right",
                 className,
             )}
             {...props}
@@ -153,7 +153,7 @@ const components = {
     code: ({ className, ...props }) => (
         <code
             className={clsx(
-                "relative rounded border bg-platinum dark:bg-raisin_black bg-opacity-25 py-[0.2rem] px-[0.3rem] font-mono text-sm text-raisin_black dark:text-platinum",
+                "relative rounded border bg-platinum dark:bg-onyx bg-opacity-25 py-[0.2rem] px-[0.3rem] font-mono text-sm text-onyx dark:text-platinum",
                 className,
             )}
             {...props}

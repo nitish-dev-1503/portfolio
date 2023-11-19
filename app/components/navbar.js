@@ -1,11 +1,16 @@
 'use client'
+import FlipGame from "./flip-game/flip-game";
 import ThemeSwitcher from "./theme-switcher";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Navbar() {
+    const [isExpanded, setIsExpanded] = useState(false)
+
     return (
-        <div className="w-full p-4 bg-platinum dark:bg-onyx rounded-lg border border-platinum-400 dark:border-onyx-600 ">
-            <div className="flex items-center justify-between">
+        <div className="w-full p-4 bg-platinum dark:bg-onyx border rounded-lg border-platinum-400 dark:border-onyx-600 ">
+            <div className="flex items-center justify-between w-full">
                 <div className="flex gap-4 items-center">
                     <Link href="/" className=" w-14 h-14 rounded-lg bg-white_smoke dark:bg-jet flex items-center justify-center border border-platinum-400 dark:border-onyx-600">
                         <svg className="fill-battleship_gray" width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,8 +23,17 @@ export default function Navbar() {
                         <p className="text-sm text-battleship_gray">Designer & Developer</p>
                     </div>
                 </div>
-                <ThemeSwitcher />
+                <div className="flex gap-2 items-center">
+                    <ThemeSwitcher />
+                    <motion.div onClick={() => setIsExpanded(!isExpanded)} className=" cursor-pointer w-10 h-10 rounded-lg bg-white_smoke dark:bg-jet flex items-center justify-center border  border-platinum-400 dark:border-onyx-600 " >
+                        <motion.svg className=" fill-battleship_gray" initial={{ rotate: 0 }} animate={{ rotate: isExpanded ? 180 : 0 }} transition={{ duration: 0.3 }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.9998 14.9499C11.8665 14.9499 11.7415 14.9291 11.6248 14.8874C11.5081 14.8457 11.3998 14.7749 11.2998 14.6749L6.6998 10.0749C6.51647 9.89157 6.4248 9.65824 6.4248 9.3749C6.4248 9.09157 6.51647 8.85824 6.6998 8.6749C6.88314 8.49157 7.11647 8.3999 7.3998 8.3999C7.68314 8.3999 7.91647 8.49157 8.0998 8.6749L11.9998 12.5749L15.8998 8.6749C16.0831 8.49157 16.3165 8.3999 16.5998 8.3999C16.8831 8.3999 17.1165 8.49157 17.2998 8.6749C17.4831 8.85824 17.5748 9.09157 17.5748 9.3749C17.5748 9.65824 17.4831 9.89157 17.2998 10.0749L12.6998 14.6749C12.5998 14.7749 12.4915 14.8457 12.3748 14.8874C12.2581 14.9291 12.1331 14.9499 11.9998 14.9499Z" />
+                        </motion.svg>
+                    </motion.div>
+                </div>
             </div>
+            {isExpanded && <motion.hr className="h-px bg-battleship_gray border-0 my-4 " />}
+            {isExpanded && <FlipGame />}
         </div>
     );
 }

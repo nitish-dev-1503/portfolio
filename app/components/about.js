@@ -20,39 +20,72 @@ export default function About() {
                             <div className="w-10 flex items-center justify-center" >
                                 <div className="w-3 h-3  bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p>Senior Consultant - Application Developer</p>
+                            <p className=" text-battleship_gray text-sm my-1">Sept 2023 - Present</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className="w-10 flex justify-center" >
-                                <div className="w-px h-10 bg-platinum-400 dark:bg-onyx-600 rounded-full " />
+                                <div className="w-px h-12 bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p className=" text-battleship_gray text-sm my-1">Sept 2023 - Present</p>
+                            <p>Senior Consultant - Application Developer</p>
                         </div>
 
                         <div className="flex items-center gap-3">
                             <div className="w-10 flex items-center justify-center" >
                                 <div className="w-3 h-3  bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p>Consultant - Application Developer</p>
+                            <p className=" text-battleship_gray text-sm my-1">July 2020 - Sept 2023</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className="w-10 flex justify-center" >
-                                <div className="w-px h-10 bg-platinum-400 dark:bg-onyx-600 rounded-full " />
+                                <div className="w-px h-12 bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p className=" text-battleship_gray text-sm my-1">July 2020 - Sept 2023</p>
+                            <p>Consultant - Application Developer</p>
                         </div>
                         <div className="flex items-center gap-3">
                             <div className="w-10 flex items-center justify-center" >
                                 <div className="w-3 h-3  bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p>Application Developer Intern</p>
+                            <p className=" text-battleship_gray text-sm my-1">Jan 2020 - Mar 2020</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <div className="w-10 flex justify-center" >
                                 {/* <div className="w-px h-10 bg-platinum-400 dark:bg-onyx-600 rounded-full " /> */}
                             </div>
-                            <p className=" text-battleship_gray text-sm my-1">Jan 2020 - Mar 2020</p>
+                            <p>Application Developer Intern</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className=" mt-12">
+                <p className="text-xl my-4">Education</p>
+                <div>
+                    <div className="flex items-center gap-3">
+                        <div className=" w-10 h-10 flex items-center justify-center  bg-platinum dark:bg-onyx border rounded-lg border-platinum-400 dark:border-onyx-600">
+                            <svg className="fill-battleship_gray" width="18" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.9996 12.9999V7.0999L10.9496 11.4749C10.6496 11.6416 10.3329 11.7249 9.99961 11.7249C9.66628 11.7249 9.34961 11.6416 9.04961 11.4749L0.599609 6.8749C0.416276 6.7749 0.287109 6.6499 0.212109 6.4999C0.137109 6.3499 0.0996094 6.18324 0.0996094 5.9999C0.0996094 5.81657 0.137109 5.6499 0.212109 5.4999C0.287109 5.3499 0.416276 5.2249 0.599609 5.1249L9.04961 0.524902C9.19961 0.441569 9.35378 0.379069 9.51211 0.337402C9.67044 0.295736 9.83294 0.274902 9.99961 0.274902C10.1663 0.274902 10.3288 0.295736 10.4871 0.337402C10.6454 0.379069 10.7996 0.441569 10.9496 0.524902L20.4746 5.7249C20.6413 5.80824 20.7704 5.92907 20.8621 6.0874C20.9538 6.24574 20.9996 6.41657 20.9996 6.5999V12.9999C20.9996 13.2832 20.9038 13.5207 20.7121 13.7124C20.5204 13.9041 20.2829 13.9999 19.9996 13.9999C19.7163 13.9999 19.4788 13.9041 19.2871 13.7124C19.0954 13.5207 18.9996 13.2832 18.9996 12.9999ZM9.04961 17.4749L4.04961 14.7749C3.71628 14.5916 3.45794 14.3416 3.27461 14.0249C3.09128 13.7082 2.99961 13.3666 2.99961 12.9999V9.1999L9.04961 12.4749C9.34961 12.6416 9.66628 12.7249 9.99961 12.7249C10.3329 12.7249 10.6496 12.6416 10.9496 12.4749L16.9996 9.1999V12.9999C16.9996 13.3666 16.9079 13.7082 16.7246 14.0249C16.5413 14.3416 16.2829 14.5916 15.9496 14.7749L10.9496 17.4749C10.7996 17.5582 10.6454 17.6207 10.4871 17.6624C10.3288 17.7041 10.1663 17.7249 9.99961 17.7249C9.83294 17.7249 9.67044 17.7041 9.51211 17.6624C9.35378 17.6207 9.19961 17.5582 9.04961 17.4749Z" />
+                            </svg>
+                        </div>
+                        <p className=" font-medium text-lg">Techno Main, Saltlake, Kolkata</p>
+                    </div>
+
+                    <div className="my-4">
+                        <div className="flex items-center gap-3">
+                            <div className="w-10 flex items-center justify-center" >
+                                <div className="w-3 h-3  bg-platinum-400 dark:bg-onyx-600 rounded-full " />
+                            </div>
+                            <p className=" text-battleship_gray text-sm my-1">2016 - 2020</p>
+                        </div>
+                        <div className="flex items-start gap-3">
+                            <div className="w-10 flex justify-center" >
+                                {/* <div className="w-px h-16 bg-platinum-400 dark:bg-onyx-600 rounded-full " /> */}
+                            </div>
+                            <div>
+                                <p>B. Tech. - Computer Science</p>
+                                <li className="text-battleship_gray text-sm my-1">Led a 12 members’ Designing Team under the Science Club (Geekonix) of the college</li>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

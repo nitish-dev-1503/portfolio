@@ -4,6 +4,7 @@ import ThemeSwitcher from "./theme-switcher";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import Social from "./social";
 
 export default function Navbar() {
     const [isExpanded, setIsExpanded] = useState(false)
@@ -32,8 +33,10 @@ export default function Navbar() {
                     </motion.div>
                 </div>
             </div>
-            {isExpanded && <motion.hr className="h-px bg-battleship_gray border-0 my-4 " />}
+            {isExpanded && <hr className="h-px bg-battleship_gray border-0 my-4 " />}
             {isExpanded && <FlipGame />}
+            {isExpanded && <hr className="h-px bg-battleship_gray border-0 my-4 " />}
+            {isExpanded && <Social />}
         </div>
     );
 }

@@ -27,7 +27,10 @@ export default function About() {
                             <div className="w-10 shrink-0 flex items-start justify-center" >
                                 <div className="w-px h-full bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p className="mb-2">Senior Consultant - Application Developer</p>
+                            <div className="mb-2">
+                                <p >Senior Consultant - Application Developer</p>
+                                <li className="text-battleship_gray text-sm my-1">Contribution in building a Developer Experience portal and creating client proposal.</li>
+                            </div>
                         </div>
 
                         <div className="flex items-center gap-3">
@@ -40,7 +43,13 @@ export default function About() {
                             <div className="w-10 shrink-0 flex items-start justify-center" >
                                 <div className="w-px h-full bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p className="mb-2">Consultant - Application Developer</p>
+                            <div className="mb-2">
+                                <p>Consultant - Application Developer</p>
+                                <li className="text-battleship_gray text-sm my-1">Cloud modernization of a legacy payment processing mainframe system.</li>
+                                <li className="text-battleship_gray text-sm my-1">Architecture design and data modeling of an event-driven notification system.</li>
+                                <li className="text-battleship_gray text-sm my-1">APIs development using Java and SpringBoot in a microservices architecture.</li>
+                                <li className="text-battleship_gray text-sm my-1">Onboarding Guide to reduce onboarding time by approximately 40%.</li>
+                            </div>
                         </div>
                         <div className="flex items-center gap-3">
                             <div className="w-10 shrink-0 flex items-center justify-center" >
@@ -52,7 +61,12 @@ export default function About() {
                             <div className="w-10 shrink-0 flex items-start justify-center" >
                                 <div className="w-px h-full bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p className="mb-2">Application Developer Intern</p>
+                            <div className="mb-2">
+                                <p>Application Developer Intern</p>
+                                <li className="text-battleship_gray text-sm my-1">Clean code practices and refactoring techniques.</li>
+                                <li className="text-battleship_gray text-sm my-1">Test Driven Development (TDD) to write unit and integration tests.</li>
+                                <li className="text-battleship_gray text-sm my-1">Agile methodologies.</li>
+                            </div>
                         </div>
                     </div>
                 </div>

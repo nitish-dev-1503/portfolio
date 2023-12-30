@@ -25,7 +25,8 @@ export const Project = defineDocumentType(() => ({
         category: { type: 'string', required: true },
         date: { type: 'date' },
         discipline: { type: 'string' },
-        github: { type: 'string' }
+        github: { type: 'string' },
+        website: { type: 'string' }
     },
     computedFields
 }))

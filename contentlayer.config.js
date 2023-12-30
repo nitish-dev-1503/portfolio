@@ -26,6 +26,7 @@ export const Project = defineDocumentType(() => ({
         date: { type: 'date' },
         discipline: { type: 'string' },
         github: { type: 'string' },
+        medium: { type: 'string' },
         website: { type: 'string' }
     },
     computedFields

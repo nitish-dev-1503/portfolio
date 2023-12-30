@@ -1,6 +1,6 @@
 const links = {
-    "linkedIn": "https://www.linkedin.com/in/nitish-sharma-771aa4138/",
-    "instagram": "https://www.instagram.com/nitishsharma.design/",
+    "linkedIn": "https://www.linkedin.com/in/nitish-sharma-ns",
+    "instagram": "https://www.instagram.com/nitishsharma.design",
     "behance": "https://www.behance.net/nitish_1503",
     "github": "https://github.com/nitish-dev-1503",
     "medium": "https://nitish1503.medium.com/"

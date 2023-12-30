@@ -20,7 +20,7 @@ export default function About() {
                             <div className="w-10 shrink-0 flex items-center justify-center" >
                                 <div className="w-3 h-3  bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p className=" text-battleship_gray text-sm my-1">Sept 2023 - Present</p>
+                            <p className=" text-battleship_gray text-sm my-1">Sep 2023 - Present</p>
                         </div>
                         <div className="flex gap-3">
                             <div className="w-10 shrink-0 flex items-start justify-center" >
@@ -36,7 +36,7 @@ export default function About() {
                             <div className="w-10 shrink-0 flex items-center justify-center" >
                                 <div className="w-3 h-3 bg-platinum-400 dark:bg-onyx-600 rounded-full " />
                             </div>
-                            <p className=" text-battleship_gray text-sm my-1">July 2020 - Sept 2023</p>
+                            <p className=" text-battleship_gray text-sm my-1">Jul 2020 - Sep 2023</p>
                         </div>
                         <div className="flex gap-3">
                             <div className="w-10 shrink-0 flex items-start justify-center" >

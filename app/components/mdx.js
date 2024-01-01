@@ -101,7 +101,7 @@ const components = {
     }) => (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-            className={clsx("rounded-lg border-2 border-platinum dark:border-onyx", className)}
+            className={clsx("rounded-lg border-2 border-platinum dark:border-onyx m-auto", className)}
             alt={alt}
             {...props}
         />

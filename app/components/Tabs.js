@@ -2,9 +2,8 @@
 import { useState } from "react";
 import TabItem from "./TabItem";
 import WorkSection from "./WorkSection";
-import Projects from "./projects";
+import Projects from "./new-projects";
 import Blogs from "./blogs";
-import About from "./about"
 
 export default function Tabs() {
     const [activeTab, setActiveTab] = useState("projects");
@@ -12,10 +11,9 @@ export default function Tabs() {
     return (
         <div className="w-full">
             <div className="z-10 sticky top-0 backdrop-blur-lg bg-opacity-80 dark:bg-opacity-80 bg-white_smoke dark:bg-jet pt-2 ">
-                <ul className="flex items-center justify-start gap-10 ">
+                <ul className="flex items-center justify-center gap-10 ">
                     <TabItem title="Projects" id="projects" activeTab={activeTab} setActiveTab={setActiveTab} />
                     <TabItem title="Blogs" id="blogs" activeTab={activeTab} setActiveTab={setActiveTab} />
-                    <TabItem title="About" id="about" activeTab={activeTab} setActiveTab={setActiveTab} />
                 </ul>
                 <hr className=" -z-10 absolute bottom-0 h-px border-0 bg-platinum-400 dark:bg-onyx-600 w-full" />
             </div>
@@ -25,9 +23,6 @@ export default function Tabs() {
             </WorkSection>
             <WorkSection id="blogs" activeTab={activeTab}>
                 <Blogs />
-            </WorkSection>
-            <WorkSection id="about" activeTab={activeTab}>
-                <About />
             </WorkSection>
 
         </div>

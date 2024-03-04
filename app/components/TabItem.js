@@ -4,7 +4,7 @@ export default function TabItem({ id, title, activeTab, setActiveTab }) {
         setActiveTab(id);
     };
 
-    const commonStyle = "cursor-pointer py-2 duration-300 ease-in-out border-b-2 ";
+    const commonStyle = "cursor-pointer py-2 duration-300 ease-in-out border-b-2 text-lg sm:text-xl ";
 
     return (
         <li onClick={handleClick}

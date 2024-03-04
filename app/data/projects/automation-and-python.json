@@ -1,0 +1,89 @@
+{
+    "title": "Automation & Python: Organizing Files",
+    "subtitles": [
+        "Development",
+        "Automation Script"
+    ],
+    "links": [
+        {
+            "label": "GitHub",
+            "url": "https://github.com/nitish-dev-1503/Organize-Download-Files"
+        },
+        {
+            "label": "Medium",
+            "url": "https://medium.com/swlh/automation-python-organizing-files-5d2b6b933402?sk=da95bd01abb41776dd9230a72ba8f193"
+        }
+    ],
+    "images": [
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        },
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        },
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        }
+    ],
+    "tagline": "Organize your files without even touching them",
+    "description": "Organizing files and folders can be a daunting task, often leading to cluttered directories with unnecessary files. Downloads folder is one such example. The challenge is to streamline this process and automate file organization with minimal user intervention.",
+    "content": [
+        {
+            "type": "images",
+            "images": [
+                {
+                    "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": [
+                "Developed a python script to automate file organization based on file types. The project comprised two main components-",
+                "Script Development: Creation of a Python script capable of moving files into designated folders based on their types (e.g., photos to Images folder, documents to Documents folder).",
+                "Scheduled Execution: Implementation of a periodic execution system using cronjob to run the script at specified intervals."
+            ]
+        },
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "type": "heading",
+                    "level": 1,
+                    "text": "Project Overview"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Open sourced",
+                        "Documented and shared as an article on Medium",
+                        "The article gained traction and is published in 'The Startup' publication.",
+                        "Being a Member-only article, it garnered significant attention with the following statistics:",
+                        "11.9K+ Viewers",
+                        "3.8K+ Readers"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "type": "heading",
+                    "text": "Technologies"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Python",
+                        "Cronjob"
+                    ]
+                }
+            ]
+        }
+    ]
+}

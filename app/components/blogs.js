@@ -22,8 +22,8 @@ export default function Blogs() {
     }
 
     return (
-        <div className="w-full py-16 ">
-            <div className="w-full grid grid-cols-1 gap-12 items-center  ">
+        <div className="w-full py-24 ">
+            <div className="w-full grid grid-cols-1 gap-24 items-center  ">
                 {
                     blogs && blogs
                         .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -35,15 +35,18 @@ export default function Blogs() {
                                     initial="offscreen"
                                     whileInView="onscreen"
                                     viewport={{ once: true, amount: 0.8 }}
-                                    className=' '>
+                                    className="">
 
-                                    <h1 className='text-xl my-2'>{blog.title}</h1>
+                                    <time dateTime={blog.date} className="flex gap-2 items-center text-base text-battleship_gray">
+                                        {format(parseISO(blog.date), 'LLLL d, yyyy')}
+                                    </time>
+                                    <h1 className='text-2xl my-2'>{blog.title}</h1>
 
-                                    <hr className="h-px bg-battleship_gray border-0 mb-2 " />
-                                    <p className='my-2 line-clamp-2 text-battleship_gray text-sm'>{blog.description}</p>
-                                    <hr className="h-px bg-battleship_gray border-0 mb-2 " />
+                                    {/* <hr className="h-px bg-battleship_gray border-0 mb-2 " /> */}
+                                    <p className='my-4 line-clamp-2 text-battleship_gray text-base'>{blog.description}</p>
+                                    {/* <hr className="h-px bg-battleship_gray border-0 mb-2 " /> */}
 
-                                    <div className=" mt-3 flex flex-wrap items-start justify-between">
+                                    <div className=" mt-4 flex flex-wrap items-start justify-between">
                                         {blog.publishedAt.length &&
                                             <div className='flex gap-2 items-center'>
                                                 {blog.publishedAt.map((platform) => {
@@ -51,14 +54,12 @@ export default function Blogs() {
                                                         <svg className=" fill-battleship_gray" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M4.36 9.26981L3.24 8.14981L5.66 5.70981H0V4.1098H5.66L3.24 1.6698L4.36 0.549805L8.72 4.9098L4.36 9.26981ZM8.8 8.90981V7.30981H16V8.90981H8.8ZM8.8 2.5098V0.909805H16V2.5098H8.8ZM11.2 5.70981V4.1098H16V5.70981H11.2Z" />
                                                         </svg>
-                                                        <p className="text-xs text-battleship_gray">{platform.platform}</p>
+                                                        <p className="text-sm text-battleship_gray">{platform.platform}</p>
                                                     </Link>
                                                 })}
                                             </div>
                                         }
-                                        <time dateTime={blog.date} className="flex gap-2 items-center text-sm text-battleship_gray">
-                                            {format(parseISO(blog.date), 'LLLL d, yyyy')}
-                                        </time>
+
                                     </div>
                                 </motion.div>
                             );

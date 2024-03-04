@@ -1,0 +1,72 @@
+{
+    "title": "Spring Stories",
+    "subtitles": [
+        "Designing",
+        "Logo Design, Illustrations"
+    ],
+    "links": [],
+    "images": [
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        },
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        },
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        }
+    ],
+    "tagline": "Sharing stories of workspace cultivation",
+    "description": "Spring Stories, launched in spring 2021, is an innovative initiative symbolizing new beginnings and growth. This initiative aimed to share stories of cultivation, emphasizing a work culture where individuals take pride in helping others grow.",
+    "content": [
+        {
+            "type": "images",
+            "images": [
+                {
+                    "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+                    "alt": ""
+                },
+                {
+                    "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": [
+                "The challenge was to visually represent the concept of workplace cultivation and learning through a monthly newsletter. The requirement was to create a customizable template that could be easily adapted for each edition with minimal changes while consistently conveying the theme of growth and collaboration."
+            ]
+        },
+        {
+            "type": "images",
+            "images": [
+                {
+                    "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "type": "heading",
+                    "level": 1,
+                    "text": "Key Features"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Customizable Template: The newsletter template was designed for effortless customization, allowing quick adaptation for each monthly edition with minimal changes.",
+                        "Floral-Styled Logo: A unique logo design combining floral elements with a basic serif style, representing the theme of growth and cultivation.",
+                        "Illustrations: Several thematic illustrations were created, maintaining a consistent visual identity for each newsletter edition."
+                    ]
+                }
+            ]
+        }
+    ]
+}

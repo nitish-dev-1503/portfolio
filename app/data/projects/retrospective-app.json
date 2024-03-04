@@ -1,0 +1,102 @@
+{
+    "title": "Retrospective App",
+    "subtitles": [
+        "Design & Development",
+        "Logo Design, Web App"
+    ],
+    "links": [
+        {
+            "label": "Live",
+            "url": "https://retrospective-umber.vercel.app"
+        }
+    ],
+    "images": [
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        },
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        },
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        }
+    ],
+    "tagline": "Making retros relevant & effective...",
+    "description": "Retro is a web application designed to streamline and enhance the agile retrospective process. It provides a user-friendly interface for teams to collaboratively collect feedback, identify trends, and action plans for improvement, all that in a safer environment for the participants.",
+    "content": [
+        {
+            "type": "images",
+            "images": [
+                {
+                    "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+                    "alt": ""
+                },
+                {
+                    "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": [
+                "Retro is a web application designed to streamline and enhance the agile retrospective process. It provides a user-friendly interface for teams to collaboratively collect feedback, identify trends, and action plans for improvement, all that in a safer environment for the participants. "
+            ]
+        },
+        {
+            "type": "images",
+            "images": [
+                {
+                    "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "type": "heading",
+                    "level": 1,
+                    "text": "Key Features"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Simplified data collection with discussion boards.",
+                        "Voting and anonymous notes.",
+                        "Collaborative prioritization of action items.",
+                        "Tracking of action items from previous retrospectives.",
+                        "Active real-time participation and shared ownership.",
+                        "Safety check",
+                        "Real-time timer to track and optimize your time.",
+                        "Collection of ready-made templates to get started quickly.",
+                        "Easy-to-understand Summary of your retrospective."
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "type": "heading",
+                    "text": "Technologies"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Next js",
+                        "Tailwind CSS",
+                        "Firebase (Cloud firestore, Realtime database, Storage and Authentication)",
+                        "Framer motion for animations",
+                        "Vercel for deployment"
+                    ]
+                }
+            ]
+        }
+    ]
+}

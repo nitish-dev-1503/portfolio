@@ -1,0 +1,76 @@
+{
+    "title": "ID Card Generator",
+    "subtitles": [
+        "Development",
+        "Web App"
+    ],
+    "links": [
+        {
+            "label": "GitHub",
+            "url": "https://github.com/nitish-dev-1503/id-card-generator"
+        }
+    ],
+    "images": [
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        },
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+            "alt": ""
+        }
+    ],
+    "tagline": "Hassle free creation of ID cards",
+    "description": "When I was in college leading the graphic designing team for the science club, I realized that the process of creating and updating ID cards was a cumbersome task. While creating ID cards for all the members during our Technical Fest, Designers used to face challenges in creating templates and then individually inputting information for hundreds of members into templates, leading to a time-consuming and iterative process.",
+    "content": [
+        {
+            "type": "images",
+            "images": [
+                {
+                    "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nitishsharma.appspot.com/o/designing%2FSpring%20stories%2027%20Artboard%2028.jpg?alt=media&token=61dd9504-2e29-4baf-a629-69f91c22ba6c",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": [
+                "Developed a user-friendly platform that streamlines the ID card generation process, allowing designers to create ID cards with just a few clicks. The platform should handle the back-end processes and should provide options of PDF and image generation."
+            ]
+        },
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "type": "heading",
+                    "level": 1,
+                    "text": "Key Features"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "PDF and JPEG format options for individual ID cards.",
+                        "A streamlined process for generating ID cards in bulk by providing details through a spreadsheet."
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "columns": [
+                {
+                    "type": "heading",
+                    "text": "Technologies"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Python",
+                        "Flask",
+                        "Tailwind CSS"
+                    ]
+                }
+            ]
+        }
+    ]
+}
